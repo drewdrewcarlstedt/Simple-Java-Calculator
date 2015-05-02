@@ -192,22 +192,22 @@ public class UI implements ActionListener {
 			num2 = reader();
 			
 			if(add > 0) {
-				result = num1+num2;
+				result = Functions.add(num1, num2);
 				text.setText(Double.toString(result));
 			}
 			
 			if(minus > 0) {
-				result = num1-num2;
+				result = Functions.subtract(num1, num2);
 				text.setText(Double.toString(result));
 			}
 			
 			if(multiply > 0) {
-				result = num1*num2;
+				result = Functions.multiply(num1, num2);
 				text.setText(Double.toString(result));
 			}
 			
 			if(divide > 0) {
-				result = num1/num2;
+				result = Functions.divide(num1, num2);
 				text.setText(Double.toString(result));
 			}
 			
