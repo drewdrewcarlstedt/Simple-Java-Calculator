@@ -1,9 +1,9 @@
-Testsuite: ph.calculator.test.FunctionsTest.testAdd
+Testsuite: ph.test.FunctionsTest.testAdd
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
 
 	Caused an ERROR
-ph.calculator.test.FunctionsTest.testAdd
-java.lang.ClassNotFoundException: ph.calculator.test.FunctionsTest.testAdd
+ph.test.FunctionsTest.testAdd
+java.lang.ClassNotFoundException: ph.test.FunctionsTest.testAdd
 	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -11,9 +11,8 @@ java.lang.ClassNotFoundException: ph.calculator.test.FunctionsTest.testAdd
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
 	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:274)
+	at java.lang.Class.forName(Class.java:191)
 	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
 	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
 	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)

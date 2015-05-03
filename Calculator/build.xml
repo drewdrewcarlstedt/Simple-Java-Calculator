@@ -51,21 +51,13 @@
       </batchtest>
     </junit>
     -->
-    <junit fork="no" printsummary="yes" haltonfailure="no">
-	    <classpath location="C:/Users/Drew/Documents/SWEN-352/Simple-Java-Calculator/Calculator/lib/junit.jar">
-	      <!--<pathelement location="${project.class.path}"/>
-	      <pathelement location="${build.tests}"/>
-	      <pathelement path=${java.class.path}"/>-->
-	    </classpath>
-	    <test name="ph.calculator.test.FunctionsTest.testAdd"
-	             haltonfailure="no" outfile="result">
-	             
-	
+    <junit printsummary="yes" haltonfailure="no">
+	    <!-- <classpath refid="junit.class.path"/>-->
+	    <test name="ph.test.FunctionsTest.testAdd"
+	             haltonfailure="no" outfile="result">	
 	      <formatter type="plain"/>
 	      <formatter type="xml"/>
-	
 	    </test>
-
   </junit>
     
   </target>

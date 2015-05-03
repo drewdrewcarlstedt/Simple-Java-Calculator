@@ -1,4 +1,4 @@
-package ph.calculator.test;
+package ph.test;
 
 import static org.junit.Assert.*;
 
