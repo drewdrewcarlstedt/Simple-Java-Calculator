@@ -1,8 +1,10 @@
-package ph.calculator;
+package ph.calculator.test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import ph.calculator.Functions;
 
 public class FunctionsTest {
 
