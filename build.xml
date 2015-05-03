@@ -2,17 +2,17 @@
 <project name="Ant-Test" default="main" basedir=".">
   <!-- Sets variables which can later be used. -->
   <!-- The value of a property is accessed via ${} -->
-  <property name="src.dir" location="src" />
+  <property name="src.dir" location="Calculator/src" />
   
-  <property name="build.dir" location="bin" />
+  <property name="build.dir" location="Calculator/bin" />
 
   <!-- Variables used for JUnit testin -->
-  <property name="test.dir" location="src" />
+  <property name="test.dir" location="Calculator/src" />
   <property name="test.report.dir" location="testreport" />
 
   <!-- Define the classpath which includes the junit.jar and the classes after compiling-->
   <path id="junit.class.path">
-    <pathelement location="lib/junit.jar" />
+    <pathelement location="Calculator/lib/junit.jar" />
     <pathelement location="${build.dir}" />
   </path>
 
