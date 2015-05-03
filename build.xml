@@ -9,7 +9,7 @@
       <pathelement path="${\Calculator\src\ph\calculator}"/>
     </classpath>
 
-    <test name="ph.calculator.FunctionsTest.testAdd"
+    <test name="ph.calculator"
 
              haltonfailure="no" outfile="result">
 
